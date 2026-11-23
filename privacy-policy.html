@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - AI Life Assistant</title>
+  <meta name="description" content="Privacy Policy for AI Life Assistant Android Application developed by NR Design.">
+  <style>
+    :root {
+      --primary-color: #2563eb;
+      --primary-dark: #1d4ed8;
+      --primary-light: #eff6ff;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --border-color: #e2e8f0;
+      --accent-badge: #e0e7ff;
+      --accent-badge-text: #3730a3;
+      --success-badge: #dcfce7;
+      --success-badge-text: #166534;
+      --warning-badge: #fef3c7;
+      --warning-badge-text: #92400e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text-main);
+      background-color: var(--bg-page);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #2563eb 100%);
+      color: #ffffff;
+      padding: 50px 20px 40px;
+      text-align: center;
+      position: relative;
+    }
+
+    .header-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .badge-dev {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px);
+      color: #ffffff;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      margin-bottom: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      font-size: 1.05rem;
+      color: #cbd5e1;
+      max-width: 600px;
+      margin: 0 auto 16px;
+    }
+
+    .meta-bar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.85rem;
+      color: #94a3b8;
+      margin-top: 10px;
+    }
+
+    .meta-bar span {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 4px 12px;
+      border-radius: 6px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: -24px auto 60px;
+      padding: 0 16px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border-radius: 16px;
+      box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.08), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
+      border: 1px solid var(--border-color);
+      padding: 36px 32px;
+      margin-bottom: 24px;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 24px 20px;
+      }
+      header h1 {
+        font-size: 1.85rem;
+      }
+    }
+
+    .toc {
+      background-color: var(--primary-light);
+      border: 1px solid #bfdbfe;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 32px;
+    }
+
+    .toc h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      margin-bottom: 12px;
+    }
+
+    .toc ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    @media (min-width: 640px) {
+      .toc ul {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .toc a {
+      color: #1e40af;
+      text-decoration: none;
+      font-size: 0.92rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      transition: color 0.15s ease;
+    }
+
+    .toc a:hover {
+      color: #1d4ed8;
+      text-decoration: underline;
+    }
+
+    .toc a::before {
+      content: "→";
+      margin-right: 6px;
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-top: 36px;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h2:first-of-type {
+      margin-top: 0;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #1e293b;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      font-size: 0.98rem;
+    }
+
+    ul, ol {
+      color: var(--text-muted);
+      padding-left: 24px;
+      margin-bottom: 16px;
+      font-size: 0.98rem;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: var(--text-main);
+    }
+
+    .highlight-box {
+      background-color: #f1f5f9;
+      border-left: 4px solid var(--primary-color);
+      padding: 16px 20px;
+      border-radius: 0 10px 10px 0;
+      margin: 18px 0;
+    }
+
+    .highlight-box p {
+      margin-bottom: 0;
+      color: #1e293b;
+      font-size: 0.95rem;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 6px;
+      vertical-align: middle;
+    }
+
+    .badge-primary {
+      background: var(--accent-badge);
+      color: var(--accent-badge-text);
+    }
+
+    .badge-success {
+      background: var(--success-badge);
+      color: var(--success-badge-text);
+    }
+
+    .badge-warning {
+      background: var(--warning-badge);
+      color: var(--warning-badge-text);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+      font-size: 0.92rem;
+    }
+
+    th, td {
+      border: 1px solid var(--border-color);
+      padding: 10px 14px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f8fafc;
+      color: #0f172a;
+      font-weight: 600;
+    }
+
+    td {
+      color: var(--text-muted);
+    }
+
+    td strong {
+      color: #1e293b;
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: var(--primary-dark);
+    }
+
+    .app-info-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 18px;
+      margin: 16px 0 24px;
+    }
+
+    @media (min-width: 640px) {
+      .app-info-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .info-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .info-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #64748b;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .info-value {
+      font-size: 0.96rem;
+      font-weight: 600;
+      color: #0f172a;
+      word-break: break-all;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #64748b;
+      font-size: 0.88rem;
+      border-top: 1px solid var(--border-color);
+      background-color: #ffffff;
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary-color);
+      color: #ffffff;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+      font-weight: bold;
+      transition: background 0.2s, transform 0.2s;
+      z-index: 100;
+    }
+
+    .back-to-top:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      color: #ffffff;
+    }
+
+    @media print {
+      body {
+        background-color: #ffffff;
+      }
+      .card {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+      }
+      .toc, .back-to-top {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header id="top">
+    <div class="header-content">
+      <div class="badge-dev">Developer: NR Design</div>
+      <h1>Privacy Policy</h1>
+      <p>Official Privacy Policy for the <strong>AI Life Assistant</strong> Android Application</p>
+      <div class="meta-bar">
+        <span><strong>Effective Date:</strong> October 19, 2026</span>
+        <span><strong>Last Updated:</strong> October 19, 2026</span>
+        <span><strong>Version:</strong> 3.0</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="card">
+
+      <!-- Application Quick Overview Box -->
+      <div class="app-info-grid">
+        <div class="info-item">
+          <span class="info-label">Application Name</span>
+          <span class="info-value">AI Life Assistant</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Package Name (Application ID)</span>
+          <span class="info-value">com.aistudio.ailifeassistant.qmvztr</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Developer</span>
+          <span class="info-value">NR Design</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Contact Email</span>
+          <span class="info-value"><a href="mailto:nihalnigam12@gmail.com">nihalnigam12@gmail.com</a></span>
+        </div>
+      </div>
+
+      <!-- Table of Contents -->
+      <nav class="toc" aria-label="Table of Contents">
+        <h2>Table of Contents</h2>
+        <ul>
+          <li><a href="#introduction">1. Introduction & Overview</a></li>
+          <li><a href="#data-collection">2. Information Collection & Practices</a></li>
+          <li><a href="#admob-advertising">3. Google AdMob & Advertising</a></li>
+          <li><a href="#permissions">4. Device Permissions Used</a></li>
+          <li><a href="#ai-processing">5. AI Features & Google Gemini API</a></li>
+          <li><a href="#data-storage">6. Data Storage & Local Retention</a></li>
+          <li><a href="#data-sharing">7. Data Sharing & Third Parties</a></li>
+          <li><a href="#user-rights">8. User Rights & Data Deletion</a></li>
+          <li><a href="#children-privacy">9. Children's Privacy</a></li>
+          <li><a href="#security">10. Data Security Measures</a></li>
+          <li><a href="#policy-changes">11. Changes to This Policy</a></li>
+          <li><a href="#contact">12. Contact Information</a></li>
+        </ul>
+      </nav>
+
+      <!-- Section 1 -->
+      <section id="introduction">
+        <h2>1. Introduction &amp; Overview</h2>
+        <p>
+          Welcome to <strong>AI Life Assistant</strong> ("the Application", "the App", "we", "us", or "our"), developed and maintained by <strong>NR Design</strong>. This Privacy Policy is designed to inform you about how our application handles information, user data, and privacy when you download, install, and use our Android mobile application (Package Name: <code>com.aistudio.ailifeassistant.qmvztr</code>).
+        </p>
+        <p>
+          We are committed to protecting your privacy. This policy provides a comprehensive, transparent explanation of our data collection practices, permissions, the local on-device architecture of the app, and our integration with third-party service providers including <strong>Google AdMob</strong> and the <strong>Google Gemini API</strong>.
+        </p>
+        <div class="highlight-box">
+          <p>
+            <strong>Core Privacy Principle:</strong> Your personal tasks, daily reminders, personal finance records, bills, budgets, and travel plans are stored <strong>strictly locally on your Android device</strong>. We do not operate custom backend user databases that harvest, store, or sell your private personal content.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <section id="data-collection">
+        <h2>2. Information Collection &amp; Practices</h2>
+        <p>Depending on how you interact with the features inside AI Life Assistant, the following types of information are handled:</p>
+
+        <h3>A. Information You Provide (Stored Locally On-Device)</h3>
+        <p>The application allows you to organize your personal life through several productivity modules. All such data is saved directly in a private local database on your device (SQLite via Android Room):</p>
+        <ul>
+          <li><strong>Tasks and To-Do Items:</strong> Task titles, descriptions, priorities, categories, due dates, and completion statuses.</li>
+          <li><strong>Reminders and Alarms:</strong> Reminder titles, scheduled trigger times, and alert intervals.</li>
+          <li><strong>Personal Financial Logs:</strong> Transaction titles, amounts, income/expense classification, payment method labels (e.g. Cash, UPI, Card), and category tags.</li>
+          <li><strong>Bills and Due Dates:</strong> Utility/service provider names, bill amounts, recurring frequencies, and payment due dates.</li>
+          <li><strong>Budgets &amp; Savings Goals:</strong> Monthly budget thresholds and financial savings targets.</li>
+          <li><strong>Travel Itineraries:</strong> Saved trip plans, packing lists, and destination notes.</li>
+        </ul>
+
+        <h3>B. Information Collected Automatically by Third-Party SDKs</h3>
+        <p>
+          When you use the app, third-party services—specifically <strong>Google AdMob</strong> (Google Mobile Ads SDK)—may automatically collect certain technical and diagnostic data to serve advertisements, optimize ad delivery, and prevent fraud. This data may include:
+        </p>
+        <ul>
+          <li><strong>Device Identifiers:</strong> Google Advertising ID (AAID / GAID), Android ID, or unique vendor IDs.</li>
+          <li><strong>Device &amp; Hardware Details:</strong> Device brand and model, operating system version, system language, screen resolution, and carrier information.</li>
+          <li><strong>Network Information:</strong> IP address (which may be used to approximate coarse geographic location for relevant advertising) and network connection type (Wi-Fi or Cellular).</li>
+          <li><strong>Ad Interaction &amp; Diagnostic Data:</strong> Ad views, clicks, impression duration, and diagnostic telemetry (such as crash logs and performance indicators).</li>
+        </ul>
+      </section>
+
+      <!-- Section 3 -->
+      <section id="admob-advertising">
+        <h2>3. Google AdMob &amp; Advertising Disclosures</h2>
+        <p>
+          Our application uses <strong>Google AdMob</strong> (provided by Google LLC) to display banner advertisements. Advertising revenue helps support the ongoing development, maintenance, and free features of AI Life Assistant.
+        </p>
+
+        <h3>How Google AdMob Uses Data</h3>
+        <p>
+          Google AdMob uses device identifiers and technical data to deliver advertisements within the application. Depending on your device settings and applicable privacy regulations in your jurisdiction (such as GDPR, CCPA, or Google Play Families Policies):
+        </p>
+        <ul>
+          <li><strong>Personalized Advertisements:</strong> Ads tailored to your interests based on previous app usage, advertising ID signals, and demographic approximations.</li>
+          <li><strong>Non-Personalized Advertisements:</strong> Contextual ads that are not based on user profiles or past behavior, though identifiers are still utilized for frequency capping, aggregated ad reporting, and combating fraud and abuse.</li>
+        </ul>
+
+        <h3>Cookies and Mobile Identifiers</h3>
+        <p>
+          While our app is a native Android application rather than a web browser, Google AdMob uses mobile advertising identifiers (such as the Google Advertising ID) and internal software identifiers that function analogously to cookies to recognize your device across ad requests.
+        </p>
+
+        <h3>How to Opt-Out of Personalized Ads</h3>
+        <p>You have full control over your mobile advertising preferences directly through your Android device settings:</p>
+        <ol>
+          <li>Open your device's <strong>Settings</strong> app.</li>
+          <li>Navigate to <strong>Google</strong> &rarr; <strong>Ads</strong> (or <strong>Privacy</strong> &rarr; <strong>Ads</strong>).</li>
+          <li>Tap <strong>Delete advertising ID</strong> or <strong>Reset advertising ID</strong>, or enable <strong>Opt out of Ads Personalization</strong> depending on your Android version.</li>
+        </ol>
+
+        <p>
+          To review Google's official privacy and advertising practices, please visit:
+        </p>
+        <ul>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+          <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use our services</a></li>
+        </ul>
+      </section>
+
+      <!-- Section 4 -->
+      <section id="permissions">
+        <h2>4. Device Permissions Used</h2>
+        <p>
+          AI Life Assistant requests only the minimum set of permissions necessary to deliver its core features. Below is an explanation of every permission declared in our <code>AndroidManifest.xml</code>:
+        </p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Permission</th>
+              <th>Type</th>
+              <th>Purpose &amp; Justification</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>android.permission.INTERNET</code></td>
+              <td><span class="badge badge-primary">Normal</span></td>
+              <td>Allows the application to connect to the Internet to request banner ads from Google AdMob and process user queries with the Google Gemini AI API.</td>
+            </tr>
+            <tr>
+              <td><code>android.permission.ACCESS_NETWORK_STATE</code></td>
+              <td><span class="badge badge-primary">Normal</span></td>
+              <td>Enables the app to monitor whether an active network connection exists before making API calls or loading advertisement banners.</td>
+            </tr>
+            <tr>
+              <td><code>android.permission.POST_NOTIFICATIONS</code></td>
+              <td><span class="badge badge-warning">Runtime (Android 13+)</span></td>
+              <td>Used exclusively to deliver user-scheduled notifications for tasks, reminders, and upcoming bill due dates. You can revoke this permission anytime in Android Settings.</td>
+            </tr>
+            <tr>
+              <td><code>android.permission.VIBRATE</code></td>
+              <td><span class="badge badge-primary">Normal</span></td>
+              <td>Provides haptic feedback and vibrations when an alarm or scheduled reminder notification triggers.</td>
+            </tr>
+            <tr>
+              <td><code>android.permission.RECEIVE_BOOT_COMPLETED</code></td>
+              <td><span class="badge badge-primary">Normal</span></td>
+              <td>Allows the app to reschedule your active task alarms and bill reminders automatically whenever your device reboots, ensuring no alerts are missed.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Section 5 -->
+      <section id="ai-processing">
+        <h2>5. AI Features &amp; Google Gemini API</h2>
+        <p>
+          AI Life Assistant includes an intelligent conversational assistant capable of helping you plan travel itineraries, summarize pending chores, and draft productivity schedules.
+        </p>
+        <ul>
+          <li><strong>Processing Queries:</strong> When you enter a natural language prompt into the AI Assistant screen, the text of that specific query is sent securely over encrypted HTTPS to Google's generative AI endpoint (Gemini API) to generate a response.</li>
+          <li><strong>No Sensitive Financial Data Sent:</strong> The app does not transmit sensitive banking account credentials, debit/credit card numbers, or passwords. Any calculations or summaries are performed on the device or based strictly on the query you choose to provide.</li>
+          <li><strong>Privacy of AI Prompts:</strong> Information processed through the Gemini API is governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Terms of Service and Privacy Policy</a>.</li>
+        </ul>
+      </section>
+
+      <!-- Section 6 -->
+      <section id="data-storage">
+        <h2>6. Data Storage &amp; Local Retention</h2>
+        <p>
+          We believe in user data sovereignty. Unlike cloud-centralized applications, AI Life Assistant stores your personal information on your device:
+        </p>
+        <ul>
+          <li><strong>Local Database:</strong> All tasks, financial transactions, recurring bills, trip plans, and savings goals reside in your device's private SQLite database (via Android Room), isolated by the Android OS application sandbox.</li>
+          <li><strong>Retention Duration:</strong> Data remains on your device for as long as you choose to keep it or until you uninstall the app or clear the app's storage. We do not retain copies on external servers.</li>
+        </ul>
+      </section>
+
+      <!-- Section 7 -->
+      <section id="data-sharing">
+        <h2>7. Data Sharing &amp; Third Parties</h2>
+        <p>
+          <strong>We do not sell, rent, trade, or monetize your personal content or records to any third party.</strong>
+        </p>
+        <p>Information is only shared under the following limited circumstances:</p>
+        <ul>
+          <li><strong>Third-Party Service Providers:</strong> With Google LLC through the integrated Google Mobile Ads SDK (AdMob) for ad serving, and through the Google Gemini API for fulfilling AI requests as described in this policy.</li>
+          <li><strong>Legal Requirements:</strong> If compelled by lawful legal processes, court orders, or applicable governmental requests.</li>
+          <li><strong>User-Initiated Sharing:</strong> When you explicitly choose to export or share a financial report or travel summary via Android's native system share sheet (e.g. sharing via messaging or email apps).</li>
+        </ul>
+      </section>
+
+      <!-- Section 8 -->
+      <section id="user-rights">
+        <h2>8. User Rights &amp; Data Deletion</h2>
+        <p>
+          Because your personal records are stored locally on your device, you have immediate and complete control over your data at all times:
+        </p>
+        <ul>
+          <li><strong>Access and Editing:</strong> You can view, modify, or update any task, transaction, reminder, or bill at any time directly in the app.</li>
+          <li><strong>Individual Deletion:</strong> You can delete individual tasks, transactions, and bills via the trash icon in their respective screens.</li>
+          <li><strong>Complete Data Erasure:</strong> To delete all local application data, you can:
+            <ol>
+              <li>Open your device <strong>Settings</strong> &rarr; <strong>Apps</strong> &rarr; <strong>AI Life Assistant</strong>.</li>
+              <li>Select <strong>Storage &amp; cache</strong>.</li>
+              <li>Tap <strong>Clear storage</strong> / <strong>Clear data</strong>.</li>
+            </ol>
+            Alternatively, uninstalling the app immediately and permanently purges all databases and files associated with the application.
+          </li>
+          <li><strong>Permissions Management:</strong> You can revoke notification permissions at any time via Android Settings.</li>
+        </ul>
+        <p>
+          If you have questions regarding your data protection rights under regulations such as the GDPR, CCPA/CPRA, or other regional privacy laws, please contact us at <a href="mailto:nihalnigam12@gmail.com">nihalnigam12@gmail.com</a>.
+        </p>
+      </section>
+
+      <!-- Section 9 -->
+      <section id="children-privacy">
+        <h2>9. Children's Privacy</h2>
+        <p>
+          AI Life Assistant is intended for general audiences and is <strong>not directed at children under the age of 13</strong> (or under 16 where required by applicable local law). We do not knowingly solicit or collect personal information from children.
+        </p>
+        <p>
+          In compliance with Google Play Developer Policies and the Children’s Online Privacy Protection Act (COPPA), if we become aware that a child under 13 has provided us with personal information, we will take immediate steps to delete such data. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.
+        </p>
+      </section>
+
+      <!-- Section 10 -->
+      <section id="security">
+        <h2>10. Data Security Measures</h2>
+        <p>
+          We implement standard industry security practices to protect your information:
+        </p>
+        <ul>
+          <li><strong>Encrypted Communications:</strong> All network transmissions made by the application (including calls to Google APIs and AdMob servers) use industry-standard Transport Layer Security (HTTPS / TLS).</li>
+          <li><strong>OS Sandboxing:</strong> Android's application sandboxing prevents other installed apps from accessing AI Life Assistant's internal database files without explicit root compromise.</li>
+          <li><strong>No Sensitive Plaintext Storage:</strong> The application does not store bank account passwords, PINs, or government identifiers.</li>
+        </ul>
+      </section>
+
+      <!-- Section 11 -->
+      <section id="policy-changes">
+        <h2>11. Changes to This Privacy Policy</h2>
+        <p>
+          We may update our Privacy Policy periodically to reflect changes in app functionality, regulatory requirements, or third-party SDK updates. When changes are made:
+        </p>
+        <ul>
+          <li>The updated policy will be posted on this page with a revised <strong>"Last Updated"</strong> date at the top.</li>
+          <li>For significant material changes, notice may be provided through the application or via the Google Play Store update notes.</li>
+          <li>Your continued use of the application after any modifications constitutes acceptance of the revised Privacy Policy.</li>
+        </ul>
+      </section>
+
+      <!-- Section 12 -->
+      <section id="contact">
+        <h2>12. Contact Information</h2>
+        <p>
+          If you have any questions, suggestions, concerns, or requests regarding this Privacy Policy or the data handling practices of <strong>AI Life Assistant</strong>, please contact us:
+        </p>
+        <div class="highlight-box">
+          <p><strong>Developer:</strong> NR Design</p>
+          <p><strong>Application:</strong> AI Life Assistant (com.aistudio.ailifeassistant.qmvztr)</p>
+          <p><strong>Email:</strong> <a href="mailto:nihalnigam12@gmail.com">nihalnigam12@gmail.com</a></p>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <a href="#top" class="back-to-top" title="Back to Top" aria-label="Back to Top">↑</a>
+
+  <footer>
+    <p>&copy; 2026 NR Design. All rights reserved.</p>
+    <p>AI Life Assistant &bull; Package: <code>com.aistudio.ailifeassistant.qmvztr</code></p>
+  </footer>
+
+</body>
+</html>
